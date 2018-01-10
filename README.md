@@ -20,5 +20,7 @@ If you see Hello, TensorFlow! Then it works
 quit() to leave Python shell
 ```
 
-Exit docker
-#control-D
+### Exit docker
+```
+Control-D
+```
