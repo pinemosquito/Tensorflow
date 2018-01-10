@@ -1,8 +1,11 @@
 # Tensorflow
 ## Installation of tensorflow on MacOS
 Install tensorflow
-From terminal, docker run -it gcr.io/tensorflow/tensorflow:latest-devel
-You should see root@xxxxxxxxxxxx# which means docker is running
+
+From terminal,
+
+###docker run -it gcr.io/tensorflow/tensorflow:latest-devel
+###You should see root@xxxxxxxxxxxx# which means docker is running
 
 Test installations
 
