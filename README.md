@@ -2,11 +2,12 @@
 ## Installation of Docker on Mac OS
 ### Install docker
 ```
-Download the Docker installer here.
+Download the Docker installer
 Mount ‘Docker.dmg’
 Copy Docker.app to your Application directory
 Double click Docker.app and wait for Docker to finish starting up
 Open terminal and run the docker hello-world image
+Verify Version 17.09.1-ce-mac42
 ```
 
 
