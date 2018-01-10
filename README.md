@@ -10,7 +10,7 @@ From terminal,
 
 Test installations
 
-,,,
+```
 python
 >>>import tensorflow as tf
 >>>hello = tf.constant('Hello, TensorFlow!')
@@ -18,7 +18,7 @@ python
 >>>print(sess.run(hello))
 If you see Hello, TensorFlow! Then it works
 quit() to leave Python shell
-,,,
+```
 
 Exit docker
 #control-D
