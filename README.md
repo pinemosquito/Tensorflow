@@ -46,6 +46,16 @@ This means installation is successful and docker is running
 #control-D
 ```
 
+### Pulling docker image 
+Open terminal
+```
+docker pull tensorflow/tensorflow
+```
+test image
+```
+docker run -it -p 8888:8888 tensorflow/tensorflow
+```
+
 ### Exit docker
 ```
 Control-D
