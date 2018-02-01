@@ -56,6 +56,22 @@ test image
 docker run -it -p 8888:8888 tensorflow/tensorflow
 ```
 
+### Cloning repo
+Clone github repo  https://github.com/aamini/introtodeeplearning_labs
+
+Unzip folder to anywhere you like.  I will assume it is located at ~/desktop/introtodeeplearning_labs-master
+
+Open terminal 
+```
+docker pull tensorflow/tensorflow
+```
+test image
+```
+docker run -it -p 8888:8888 -v ~/desktop/introtodeeplearning_labs-master:/notebooks tensorflow/tensorflow
+```
+in browser, navigate to URL provided by docker
+
+
 ### Exit docker
 ```
 Control-D
