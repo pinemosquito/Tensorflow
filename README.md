@@ -59,7 +59,7 @@ docker run -it -p 8888:8888 tensorflow/tensorflow
 ### Cloning repo
 Clone github repo  https://github.com/aamini/introtodeeplearning_labs
 
-Unzip folder to anywhere you like.  I will assume it is located at ~/desktop/introtodeeplearning_labs-master
+Unzip folder to anywhere, for me, I will unzip to ~/desktop/introtodeeplearning_labs-master
 
 Open terminal 
 ```
