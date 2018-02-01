@@ -32,6 +32,16 @@ If you see Hello, TensorFlow! Then it works
 quit() to leave Python shell
 ```
 
+### Eager Installation
+launch python shell 
+```
+$python
+>>>import tensorflow as tf
+>>>tf.__version__
+you will need version 1.5 to install Eager
+quit() to leave Python shell
+
+
 ### Exit docker
 ```
 Control-D
