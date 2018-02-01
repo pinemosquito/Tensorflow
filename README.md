@@ -63,10 +63,6 @@ Unzip folder to anywhere, for me, I will unzip to ~/desktop/introtodeeplearning_
 
 Open terminal 
 ```
-docker pull tensorflow/tensorflow
-```
-test image
-```
 docker run -it -p 8888:8888 -v ~/desktop/introtodeeplearning_labs-master:/notebooks tensorflow/tensorflow
 ```
 in browser, navigate to URL provided by docker
