@@ -33,14 +33,18 @@ quit() to leave Python shell
 ```
 
 ### Eager Installation
-launch python shell 
+You will need version 1.5.0 to install Eager.  My version of Tensorflow was 0.1.2
 ```
-$python
+$docker run -it gcr.io/tensorflow/tensorflow:latest-devel
+root@37eec9a002ca:~# 
+This means installation is successful and docker is running
+#python
 >>>import tensorflow as tf
 >>>tf.__version__
-you will need version 1.5 to install Eager
-quit() to leave Python shell
-
+1.5.0
+>>quit() 
+#control-D
+```
 
 ### Exit docker
 ```
